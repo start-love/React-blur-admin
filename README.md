@@ -1,336 +1,66 @@
-Contribution: 2018-09-03 00:00
+# React Blur Admin
+All credit for the theme goes to [akveo](http://akveo.com/blur-admin/), this is just a React implementation.
 
-Contribution: 2018-09-03 00:01
+Note: This is currently partial implementation of Blur Admin. This repo includes styles from Blur Admin that are required for pages and components to load correctly and the components themselves.
 
-Contribution: 2018-09-03 00:02
+Individual pages/demos/layouts can be found in the [React Webpack Skeleton repo](https://github.com/knledg/react-webpack-skeleton).
 
-Contribution: 2018-09-03 00:03
+### Build Status
 
-Contribution: 2018-09-03 00:04
+[![CircleCI](https://circleci.com/gh/knledg/react-blur-admin/tree/master.svg?style=svg)](https://circleci.com/gh/knledg/react-blur-admin/tree/master)
 
-Contribution: 2018-09-03 00:05
+### Currently Implemented
 
-Contribution: 2018-09-03 00:06
+- Text Inputs
+- Buttons
+- Editable Fields
+- Loading Spinner
+- Tables (not including smart tables)
+- Tabs
+- Switches
+- Select Dropdowns
+- Progress Bars
+- Panels
+- Pages
+- Textareas
+- Pagination (diverged from Blur's implementation slightly for additional flexibility)
+- Notifications
+- Alerts
 
-Contribution: 2018-09-03 00:07
+### Needs Implementation
 
-Contribution: 2018-09-03 00:08
+- Accordions
+- Sliders
+- Searchable table columns
+- Tags Inputs
 
-Contribution: 2018-09-03 00:09
+## Semver
 
-Contribution: 2018-09-03 00:10
+Before the v1.0.0 release, a minor update will represent breaking changes and a patch will represent feature enhancements or bug fixes.
 
-Contribution: 2018-09-03 00:11
+## Contributing
 
-Contribution: 2018-09-03 00:12
+This is an active project and we'd love your help! Please submit small pull requests. You can make sure tests and lint passes by running `npm run lint && npm run test` before committing.
 
-Contribution: 2018-09-06 00:00
+You can also add the `.git/hooks/pre-push` with the following:
 
-Contribution: 2018-09-06 00:01
+```
+#!/usr/bin/env bash
 
-Contribution: 2018-09-11 00:00
+npm run lint && npm run test
+```
 
-Contribution: 2018-09-11 00:01
+And making it executable with `chmod ugo+x .git/hooks/pre-push`
 
-Contribution: 2018-09-11 00:02
+## Example Usage
 
-Contribution: 2018-09-11 00:03
+A React Webpack Skeleton implementing the layout for React Blur Admin and using it's components will be uploaded and linked shortly. You can see how each component is implemented by looking at the source code for each of the demo pages.
 
-Contribution: 2018-09-11 00:04
-
-Contribution: 2018-09-11 00:05
-
-Contribution: 2018-09-12 00:00
-
-Contribution: 2018-09-12 00:01
-
-Contribution: 2018-09-12 00:02
-
-Contribution: 2018-09-12 00:03
-
-Contribution: 2018-09-12 00:04
-
-Contribution: 2018-09-12 00:05
-
-Contribution: 2018-09-12 00:06
-
-Contribution: 2018-09-12 00:07
-
-Contribution: 2018-09-12 00:08
-
-Contribution: 2018-09-13 00:00
-
-Contribution: 2018-09-13 00:01
-
-Contribution: 2018-09-13 00:02
-
-Contribution: 2018-09-19 00:00
-
-Contribution: 2018-09-19 00:01
-
-Contribution: 2018-09-19 00:02
-
-Contribution: 2018-09-19 00:03
-
-Contribution: 2018-09-19 00:04
-
-Contribution: 2018-09-19 00:05
-
-Contribution: 2018-09-19 00:06
-
-Contribution: 2018-09-19 00:07
-
-Contribution: 2018-09-19 00:08
-
-Contribution: 2018-09-19 00:09
-
-Contribution: 2018-09-20 00:00
-
-Contribution: 2018-09-20 00:01
-
-Contribution: 2018-09-20 00:02
-
-Contribution: 2018-09-20 00:03
-
-Contribution: 2018-09-20 00:04
-
-Contribution: 2018-09-20 00:05
-
-Contribution: 2018-09-20 00:06
-
-Contribution: 2018-09-20 00:07
-
-Contribution: 2018-09-20 00:08
-
-Contribution: 2018-09-20 00:09
-
-Contribution: 2018-09-20 00:10
-
-Contribution: 2018-09-20 00:11
-
-Contribution: 2018-09-20 00:12
-
-Contribution: 2018-09-20 00:13
-
-Contribution: 2018-09-20 00:14
-
-Contribution: 2018-09-24 00:00
-
-Contribution: 2018-09-24 00:01
-
-Contribution: 2018-09-24 00:02
-
-Contribution: 2018-09-24 00:03
-
-Contribution: 2018-09-24 00:04
-
-Contribution: 2018-09-24 00:05
-
-Contribution: 2018-09-24 00:06
-
-Contribution: 2018-09-24 00:07
-
-Contribution: 2018-09-24 00:08
-
-Contribution: 2018-09-24 00:09
-
-Contribution: 2018-09-26 00:00
-
-Contribution: 2018-09-26 00:01
-
-Contribution: 2018-09-26 00:02
-
-Contribution: 2018-09-26 00:03
-
-Contribution: 2018-09-26 00:04
-
-Contribution: 2018-09-26 00:05
-
-Contribution: 2018-09-27 00:00
-
-Contribution: 2018-09-27 00:01
-
-Contribution: 2018-09-27 00:02
-
-Contribution: 2018-09-27 00:03
-
-Contribution: 2018-09-27 00:04
-
-Contribution: 2018-09-27 00:05
-
-Contribution: 2018-09-27 00:06
-
-Contribution: 2018-09-27 00:07
-
-Contribution: 2018-09-27 00:08
-
-Contribution: 2018-09-27 00:09
-
-Contribution: 2018-09-27 00:10
-
-Contribution: 2018-09-27 00:11
-
-Contribution: 2018-09-27 00:12
-
-Contribution: 2018-09-27 00:13
-
-Contribution: 2018-10-01 00:00
-
-Contribution: 2018-10-01 00:01
-
-Contribution: 2018-10-01 00:02
-
-Contribution: 2018-10-01 00:03
-
-Contribution: 2018-10-01 00:04
-
-Contribution: 2018-10-01 00:05
-
-Contribution: 2018-10-01 00:06
-
-Contribution: 2018-10-01 00:07
-
-Contribution: 2018-10-02 00:00
-
-Contribution: 2018-10-02 00:01
-
-Contribution: 2018-10-02 00:02
-
-Contribution: 2018-10-02 00:03
-
-Contribution: 2018-10-03 00:00
-
-Contribution: 2018-10-03 00:01
-
-Contribution: 2018-10-03 00:02
-
-Contribution: 2018-10-03 00:03
-
-Contribution: 2018-10-05 00:00
-
-Contribution: 2018-10-05 00:01
-
-Contribution: 2018-10-05 00:02
-
-Contribution: 2018-10-05 00:03
-
-Contribution: 2018-10-05 00:04
-
-Contribution: 2018-10-05 00:05
-
-Contribution: 2018-10-05 00:06
-
-Contribution: 2018-10-05 00:07
-
-Contribution: 2018-10-05 00:08
-
-Contribution: 2018-10-09 00:00
-
-Contribution: 2018-10-09 00:01
-
-Contribution: 2018-10-09 00:02
-
-Contribution: 2018-10-09 00:03
-
-Contribution: 2018-10-09 00:04
-
-Contribution: 2018-10-09 00:05
-
-Contribution: 2018-10-09 00:06
-
-Contribution: 2018-10-09 00:07
-
-Contribution: 2018-10-09 00:08
-
-Contribution: 2018-10-10 00:00
-
-Contribution: 2018-10-10 00:01
-
-Contribution: 2018-10-10 00:02
-
-Contribution: 2018-10-10 00:03
-
-Contribution: 2018-10-10 00:04
-
-Contribution: 2018-10-10 00:05
-
-Contribution: 2018-10-10 00:06
-
-Contribution: 2018-10-10 00:07
-
-Contribution: 2018-10-10 00:08
-
-Contribution: 2018-10-10 00:09
-
-Contribution: 2018-10-10 00:10
-
-Contribution: 2018-10-11 00:00
-
-Contribution: 2018-10-11 00:01
-
-Contribution: 2018-10-11 00:02
-
-Contribution: 2018-10-11 00:03
-
-Contribution: 2018-10-11 00:04
-
-Contribution: 2018-10-11 00:05
-
-Contribution: 2018-10-11 00:06
-
-Contribution: 2018-10-11 00:07
-
-Contribution: 2018-10-11 00:08
-
-Contribution: 2018-10-11 00:09
-
-Contribution: 2018-10-11 00:10
-
-Contribution: 2018-10-12 00:00
-
-Contribution: 2018-10-12 00:01
-
-Contribution: 2018-10-12 00:02
-
-Contribution: 2018-10-12 00:03
-
-Contribution: 2018-10-12 00:04
-
-Contribution: 2018-10-15 00:00
-
-Contribution: 2018-10-15 00:01
-
-Contribution: 2018-10-15 00:02
-
-Contribution: 2018-10-15 00:03
-
-Contribution: 2018-10-15 00:04
-
-Contribution: 2018-10-15 00:05
-
-Contribution: 2018-10-15 00:06
-
-Contribution: 2018-10-15 00:07
-
-Contribution: 2018-10-15 00:08
-
-Contribution: 2018-10-15 00:09
-
-Contribution: 2018-10-15 00:10
-
-Contribution: 2018-10-15 00:11
-
-Contribution: 2018-10-15 00:12
-
-Contribution: 2018-10-15 00:13
-
-Contribution: 2018-10-15 00:14
-
-Contribution: 2018-10-17 00:00
-
-Contribution: 2018-10-19 00:00
-
-Contribution: 2018-10-19 00:01
-
-Contribution: 2018-10-19 00:02
+## Dependencies
+- Bootstrap CSS
+- Bootstrap-Select CSS
+- Bootstrap-Switch CSS
+- Blur CSS
+- EventEmitter implemented in lib/event-bus so that notifications can listen for a new notification from anywhere without any specific implementation of flux
+- Utilizes Flexbox for columns/rows
 
